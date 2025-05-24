@@ -1,0 +1,32 @@
+.cityInput {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+input {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px rgb(121, 190, 255);
+}
+button {
+    margin-left: 10px;
+    border-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    font-size: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+}
+button:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+.weatherResult {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
